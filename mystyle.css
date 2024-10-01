@@ -9,6 +9,13 @@ th,td{
 th.important{
   color:red;
 }
-p.sample1 {boder: double 10px #0000ff;}
-p.sample2 {boder: inset 10px #ff0000;}
-p.sample3 {margin: 30px 30px;padding: 10px;boder: medium solid #ff00ff;}
+p.sample1 {
+  boder:double 10px #0000ff;
+}
+p.sample2 {
+  boder:inset 10px #ff0000;
+}
+p.sample3 {
+  margin: 30px 30px;padding: 10px;boder:
+  medium solid #ff00ff;
+}
