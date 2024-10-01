@@ -6,3 +6,6 @@ h1{
 th,td{
   border:dashed thick black;
 }
+th.important{
+  color:red;
+}
