@@ -5,5 +5,5 @@ function hanako65(){who65='花子';}
 
 var who66='world';
 function sayhello66(){alert('Hello,'+who66+'!');}
-function taro66(){alert('太郎が来た！');}
+function taro66(){alert(taro'!');}
 function hanako66(){alert('花子が来た！');}
