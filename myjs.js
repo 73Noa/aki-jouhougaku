@@ -9,5 +9,4 @@ alert('2'+'3');
 alert(Number('2')+Number('3'));
 alert('2'+3);
 alert(Number('2')+3);
-function gazo688()
-{document.getElementByID('who688').innerHTML='<img src="./img/tensura-jouhou.avif" alt="オン">';}
+function gazo688(){document.getElementByID('who688').innerHTML='<img src="./img/tensura-jouhou.avif" alt="オン">';}
