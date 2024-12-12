@@ -1,3 +1,3 @@
 function add(){var x=document.getElementById('input1').value;
               var y=document.getElementById('input2').value;
-              alert(Number('input1')+Number('input2'));}
+              alert(Number('x')+Number('y'));}
