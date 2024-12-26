@@ -1,13 +1,15 @@
-function calculateBMI2(){var height = Number(document.getElementById("input10").value);
-                         var weight = Number(document.getElementById("input11").value);
-                         var bmi = weight / ((height / 100) **2);
-                         alert(bmi.toFixed(3));}
-function BMI10(){
-    if(document.getElementById("answer99").value == "夢"){
-        alert('あたり！');
-    }else if(document.getElementById("answer99").value == "ゆめ"){
-        alert('あたり！');
-      }else{
-        alert('はずれ');
-    }
+function calculateBMI() {
+  var height = Number(document.getElementById("height").value) / 100;
+  var weight = Number(document.getElementById("weight").value);
+  var bmi = weight / (height * height);
+  var resultText = bmi.toFixed(1);
+
+if (bmi < 18.5) {
+  resultText += " 低体重";
+} else if (bmi >= 18.5 && bmi < 25) {
+  resultText += " 普通";
+} else {
+  resultText += " 肥満";
+}
+  document.getElementById("result").innerText = resultText;
 }
